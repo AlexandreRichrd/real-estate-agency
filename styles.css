@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+header{
+    height: 10vh;
+    width: calc(100% - 5rem);
+    position: absolute;
+    top: 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+header ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+header .btns{
+    display: flex;
+    gap: 1rem;
+}
+
+header .btns .filled{
+    background-color: #27563A;
+    color: #FFF;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+header .btns .filled:hover{
+    background-color: #1F4A32;
+}
+
+header .btns .outlined{
+    background-color: transparent;
+    color: #FFF;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+header .btns .outlined:hover{
+    background-color: #FFF;
+    color: #27563A;
+}
+
+/* MAIN */
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/main-image.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main h1{
+    font-size: 5em;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+main p{
+    font-size: 1.5em;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+main .searchbar{
+    display: flex;
+    height: 4rem;
+    margin: 4rem 0 0 0 ;
+}
+
+main .searchbar .select {
+    width: 8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-color: #E5E5E5;
+    border-radius: 2rem 0 0 2rem;
+}
+
+main .searchbar .select p{
+    color: #313131;
+    font-size: 1em;
+    margin: 0;
+}
+
+main .searchbar input{
+    width: 60rem;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+}
+
+main .searchbar button{
+    width: 5rem;
+    height: 4rem;
+    background-color: #27563A;
+    border-radius: 0 2rem 2rem 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.chevron{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: solid #313131 1px;
+    border-bottom: solid #313131 1px;
+    transform: rotate(45deg);
+}
