@@ -138,7 +138,7 @@ main .searchbar button{
     transform: rotate(45deg);
 }
 
-/* SECTION QUI SOMMES NOUS */
+/* SECTIONS QUI SOMMES NOUS ET NOTRE MISSION */
 
 .qui-sommes-nous{
     height: 60vh;
@@ -148,7 +148,16 @@ main .searchbar button{
     align-items: center;
 }
 
-.qui-sommes-nous .left-part{
+.notre-mission{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-part{
     height: 20rem;
     width: 50%;
     padding: 1rem 3rem;
@@ -157,7 +166,7 @@ main .searchbar button{
     gap: 1rem;
 }
 
-.qui-sommes-nous .left-part .title{
+.text-part .title{
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
@@ -165,30 +174,30 @@ main .searchbar button{
     margin-bottom: 1rem;
 }
 
-.qui-sommes-nous .left-part .title .line{
+.text-part .title .line{
     height: 0.1rem;
     width: 4rem;
     background-color: #27563A;
 }
 
-.qui-sommes-nous .left-part .title h3{
+.text-part .title h3{
     font-size: 0.8em;
     font-weight: 100;
     color: #27563A;
     text-transform: uppercase;
 }
 
-.qui-sommes-nous .left-part h1{
+.text-part h1{
     font-size: 2em;
 }
 
-.qui-sommes-nous .left-part p{
+.text-part p{
     font-size: 1em;
     color: #313131;
     line-height: 2rem;
 }
 
-.qui-sommes-nous .left-part button{
+.text-part button{
     width: 10rem;
     height: 4rem;
     background-color: #27563A;
@@ -200,18 +209,24 @@ main .searchbar button{
     gap: 1rem;
 }
 
-.qui-sommes-nous .left-part button p{
+.text-part button p{
     color: #FFF;
     font-size: 1em;
     margin: 0;
     margin-left: 1rem;
 }
 
-.qui-sommes-nous .left-part button img{
+.text-part button img{
     height: 1.5rem;
 }
 
-.qui-sommes-nous img{
-    height: 20rem;
-    border-radius: 0.5rem;
+.notre-mission img{
+    height: 30rem;
+    border-radius: 1rem;
 }
+
+.qui-sommes-nous img{
+    height: 30rem;
+    border-radius: 1rem;
+}
+
