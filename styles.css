@@ -221,12 +221,73 @@ main .searchbar button{
 }
 
 .notre-mission img{
-    height: 30rem;
+    height: 20rem;
     border-radius: 1rem;
 }
 
 .qui-sommes-nous img{
-    height: 30rem;
+    height: 20rem;
     border-radius: 1rem;
+}
+
+/* PROPRIETES */
+
+.proprietes{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+.proprietes h1{
+    font-size: 2em;
+}
+
+.proprietes nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.proprietes nav ul li{
+    font-size: 1em;
+    color: #313131;
+    cursor: pointer;
+}
+
+.proprietes nav ul li:hover{
+    color: #27563A;
+    text-decoration: underline;
+}
+
+.proprietes nav ul li.active{
+    color: #27563A;
+    text-decoration: underline;
+}
+
+.propriete{
+    height: 80vh;
+    width: 30rem;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.propriete .propriete-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.propriete .propriete-header .propriete-header-left{
+    display: flex;
+    gap: 1rem;
+}
+
+.propriete .propriete-header .propriete-header-left h3{
+    font-size: 1em;
+    color: #313131;
 }
 
